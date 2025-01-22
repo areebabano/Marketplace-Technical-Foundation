@@ -1,19 +1,118 @@
-🚀 Building the Future of Furniture Shopping - Hekto E-Commerce Marketplace
+# Hekto: Building the Future of Furniture Shopping 🛋️
 
-I’m excited to share that I’ve completed the initial phases of building my E-Commerce site, Hekto, designed to revolutionize the future of furniture shopping! Over the past six days, I’ve meticulously planned, designed, and developed the marketplace, laying a strong foundation for its future growth and deployment.
+## Overview
+**Hekto** is a modern e-commerce platform designed to offer a seamless shopping experience for furniture. Built with **Next.js** and deployed on **Vercel**, the platform ensures fast performance ⚡, security 🔐, and scalability 🌐. It provides customers with an intuitive interface and smooth navigation, from browsing products to completing checkout 🛒.
 
-Key Highlights:
+Explore the live application here: [Hekto](https://final-figma-ecommerce-project-mxky.vercel.app/)
 
-Day 1-3: Focused on foundational planning, technical requirements, and API integration.
-Day 4: Developed dynamic frontend components, including product listings, search bar, cart, checkout flow, and wishlist.
-Day 5: Conducted extensive functional, performance, and security testing to ensure the site’s reliability.
-Day 6: Set up the staging environment, refined deployment processes, and ensured everything is ready for live deployment.
-This project has been incredibly rewarding and provided a great opportunity to apply a wide range of skills, from business planning and technical design to hands-on development. The most fulfilling part was seeing all the components come together, and I’m excited to continue refining and expanding the platform.
+Github link:    (https://github.com/areebabano/Final-Figma-Ecommerce-Project)
+---
 
-Check out the full documentation attached!
+## Key Features ✨
+- **User-Friendly Interface**: Clean design with easy navigation and responsive layout 📱💻.
+- **Fast Performance**: Optimized for quick loading on both mobile and desktop ⚡.
+- **Secure Transactions**: Advanced security protocols for safe and secure purchases 🔐.
 
-Stay tuned for Day 7, where I’ll be deploying the marketplace live and sharing post-launch practices. 🚀
+---
 
-Live Link: https://final-figma-ecommerce-project-mxky.vercel.app/
+## Performance 📊
+The application was tested using **Lighthouse**, showing strong performance metrics with optimized accessibility ♿ and SEO 📈 scores. The app performs exceptionally well across both mobile 📱 and desktop 💻 versions.
 
-Github link: https://github.com/areebabano/Final-Figma-Ecommerce-Project
+---
+
+## Deployment with Vercel 🚀
+Hekto is hosted on **Vercel**, leveraging its powerful integration with GitHub for automatic deployments 🔄. Vercel ensures fast, reliable hosting with automatic scaling to handle traffic efficiently 📈. The platform allows easy deployment and continuous integration, making it an ideal choice for modern web applications ⚡.
+
+---
+
+## Folder Structure 📂
+
+The project follows a well-organized folder structure to ensure scalability and maintainability:
+
+.
+├── app/
+│   ├── about-us/
+│   ├── account/
+│   ├── blog/
+│   ├── cart/
+│   ├── checkout/
+│   ├── completeOrder/
+│   ├── contact-us/
+│   ├── customerFeedback/
+│   ├── products/
+│   │   └── [id]/           # Dynamic route for individual product pages
+│   ├── search-result/
+│   ├── shop/
+│   │   └── [id]/           # Dynamic route for shop
+│   ├── studio/[[...tool]]/
+│   └── wishlist/
+├── components/
+│   ├── BreadCrumb.tsx
+│   ├── CustomerFeedback.tsx
+│   ├── DiscountItem.tsx
+│   ├── FAQ.tsx
+│   ├── FeaturedProducts.tsx
+│   ├── FilterAndSorting.tsx
+│   ├── Footer.tsx
+│   ├── Header.tsx
+│   ├── HeroSection.tsx
+│   ├── InputField.tsx
+│   ├── LatestProducts.tsx
+│   ├── LatestBlog.tsx
+│   ├── Loading.tsx
+│   ├── Newsletter.tsx
+│   ├── Notification.tsx
+│   ├── OrderCompleted.tsx
+│   ├── Pagination.tsx
+│   ├── ProductCard.tsx
+│   ├── ProductDetail.tsx
+│   ├── RelatedProducts.tsx
+│   ├── SearchBar.tsx
+│   ├── ShopexOffer.tsx
+│   ├── TopCategories.tsx
+│   └── TrendingProducts.tsx
+├── context/
+│   └── CartContext
+│   └── FavouriteContext
+├── data/
+│   ├── customerFeedback/
+│   ├── products/
+│   └── trendingProducts/
+├── public/
+│   ├── favicon.ico
+│   └── images/
+├── sanity/
+│   ├── sanity.cli.ts
+│   ├── sanity.config.ts
+│   └── sanity.schema.ts
+├── scripts/
+│   └── importData.mjs
+├── styles/
+│   ├── globals.css
+│   └── tailwind.config.ts
+├── .eslintrc.json
+├── .gitignore
+├── next.config.mjs
+├── package-lock.json
+├── package.json
+├── postcss.config.mjs
+└── README.md
+
+---
+
+## Technologies Used 💻
+- **Next.js**: Framework for server-side rendering and static site generation ⚡.
+- **Sanity CMS**: Headless CMS for managing product data and content 📦.
+- **Tailwind CSS**: Utility-first CSS framework for fast styling 🎨.
+- **Vercel**: Hosting platform for deployment and scaling 🚀.
+- **Lighthouse**: Tool for measuring performance, accessibility, and SEO 📊.
+
+---
+
+## Conclusion 🎉
+Hekto offers a fast, reliable, and secure furniture shopping platform 🛒, deployed on **Vercel** for optimal performance and scalability 🌐. The platform is designed for ease of use, with a focus on fast loading times ⚡, security 🔐, and a great user experience 😃.
+
+---
+
+### Prepared By:
+**Areeba Hammad**
